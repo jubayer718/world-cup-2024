@@ -1,0 +1,44 @@
+@media screen and (max-width: 576px) {
+
+  .nav-container  i{
+  display: block;
+}
+  .nav-container li{
+    display: none;
+  }
+  .hero-container{
+    flex-direction: column;
+  }
+  .hero-content{
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .hero-content h1{
+    font-size: 3rem;
+    font-weight: 700;
+   
+
+  }
+  .row-1{
+    grid-template-columns: 1fr;
+   
+  }
+  .box-container{
+    width: 90%;
+    margin: 0 auto;
+  }
+  .match-container{
+    flex-direction: column;
+  }
+  .match-content{
+    width: 100%;
+  }
+  .match-img{
+    width: 100%;
+    margin: 0 auto;
+  }
+  .footer-container div img{
+    width: 400px;
+  }
+
+}
